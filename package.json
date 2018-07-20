@@ -16,8 +16,6 @@
     "less": "^3.0.4",
     "less-loader": "^4.1.0",
     "mini-css-extract-plugin": "^0.4.0",
-    "node-sass": "^4.9.0",
-    "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
     "uglifyjs-webpack-plugin": "^1.2.5",
     "url-loader": "^1.0.1",
@@ -32,13 +30,24 @@
   "name": "vueapp",
   "version": "1.0.0",
   "main": "webpack.common.js",
-  "author": "",
+  "author": "tlf",
   "license": "ISC",
-  "description": "",
+  "description": "vue练手",
   "dependencies": {
     "element-ui": "^2.4.4",
     "vue": "^2.5.16",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlff/vueapp.git"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "bugs": {
+    "url": "https://github.com/tlff/vueapp/issues"
+  },
+  "homepage": "https://github.com/tlff/vueapp#readme"
 }
